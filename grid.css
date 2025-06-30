@@ -1,0 +1,34 @@
+ 
+ 
+ /* 
+ Guidelines
+ 576
+ 577 767
+ 768 991
+ 992 1199
+ 1200 1399
+ 1400
+  */
+
+  @media (min-width: 300px){
+    body{
+        background: grey;
+    }
+  }
+
+  @media (max-width:500px){
+    p{
+        line-height:  40px;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 500px)
+  {
+    #rwd{
+        background: white;
+    }
+    h1{
+        font-size: 60px;
+        text-decoration: underline;
+    }
+  }
